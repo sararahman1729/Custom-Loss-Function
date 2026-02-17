@@ -1,0 +1,112 @@
+Files already downloaded and verified
+Files already downloaded and verified
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG13_BN_Weights.IMAGENET1K_V1`. You can also use `weights=VGG13_BN_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+/usr/local/lib/python3.10/dist-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Training with VGG13-MobileNetV2 pair:
+Epoch [1/10], Loss: 3.6034, Alpha: 0.1000, Beta: 0.0500, Training Accuracy: 0.1275
+Validation - Accuracy: 0.1949, Precision: 0.2285, Recall: 0.1949
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch [2/10], Loss: 2.7998, Alpha: 0.1800, Beta: 0.0750, Training Accuracy: 0.2901
+Validation - Accuracy: 0.3542, Precision: 0.3967, Recall: 0.3542
+Epoch [3/10], Loss: 2.3984, Alpha: 0.2600, Beta: 0.1000, Training Accuracy: 0.4125
+Validation - Accuracy: 0.4567, Precision: 0.4915, Recall: 0.4567
+Epoch [4/10], Loss: 2.1794, Alpha: 0.3400, Beta: 0.1250, Training Accuracy: 0.4931
+Validation - Accuracy: 0.5083, Precision: 0.5367, Recall: 0.5083
+Epoch [5/10], Loss: 2.0386, Alpha: 0.4200, Beta: 0.1500, Training Accuracy: 0.5556
+Validation - Accuracy: 0.5248, Precision: 0.5635, Recall: 0.5248
+Epoch [6/10], Loss: 1.9379, Alpha: 0.5000, Beta: 0.1750, Training Accuracy: 0.6069
+Validation - Accuracy: 0.5462, Precision: 0.5765, Recall: 0.5462
+Epoch [7/10], Loss: 1.8656, Alpha: 0.5800, Beta: 0.2000, Training Accuracy: 0.6561
+Validation - Accuracy: 0.5558, Precision: 0.5925, Recall: 0.5558
+Epoch [8/10], Loss: 1.8096, Alpha: 0.6600, Beta: 0.2250, Training Accuracy: 0.6933
+Validation - Accuracy: 0.5814, Precision: 0.6013, Recall: 0.5814
+Epoch [9/10], Loss: 1.7591, Alpha: 0.7400, Beta: 0.2500, Training Accuracy: 0.7332
+Validation - Accuracy: 0.5868, Precision: 0.6025, Recall: 0.5868
+Epoch [10/10], Loss: 1.7129, Alpha: 0.8200, Beta: 0.2750, Training Accuracy: 0.7709
+Validation - Accuracy: 0.6052, Precision: 0.6208, Recall: 0.6052
+Best Accuracy for VGG13-MobileNetV2: 0.6052 (Alpha: 0.8200000000000001, Beta: 0.275)
+Confusion Matrix for VGG13-MobileNetV2:
+[[83  0  0 ...  0  0  0]
+ [ 0 76  0 ...  0  0  0]
+ [ 0  0 55 ...  0  5  0]
+ ...
+ [ 0  0  0 ... 51  0  0]
+ [ 1  0  3 ...  0 34  0]
+ [ 0  1  0 ...  0  0 62]]
+
+Training with ResNet50-MobileNetV2 pair:
+Epoch [1/10], Loss: 3.6473, Alpha: 0.1000, Beta: 0.0500, Training Accuracy: 0.1195
+Validation - Accuracy: 0.1821, Precision: 0.2097, Recall: 0.1821
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch [2/10], Loss: 2.8447, Alpha: 0.1800, Beta: 0.0750, Training Accuracy: 0.2818
+Validation - Accuracy: 0.3350, Precision: 0.3942, Recall: 0.3350
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch [3/10], Loss: 2.4466, Alpha: 0.2600, Beta: 0.1000, Training Accuracy: 0.3990
+Validation - Accuracy: 0.4331, Precision: 0.4613, Recall: 0.4331
+Epoch [4/10], Loss: 2.2154, Alpha: 0.3400, Beta: 0.1250, Training Accuracy: 0.4805
+Validation - Accuracy: 0.4805, Precision: 0.5252, Recall: 0.4805
+Epoch [5/10], Loss: 2.0622, Alpha: 0.4200, Beta: 0.1500, Training Accuracy: 0.5453
+Validation - Accuracy: 0.5192, Precision: 0.5478, Recall: 0.5192
+Epoch [6/10], Loss: 1.9615, Alpha: 0.5000, Beta: 0.1750, Training Accuracy: 0.5950
+Validation - Accuracy: 0.5529, Precision: 0.5848, Recall: 0.5529
+Epoch [7/10], Loss: 1.8827, Alpha: 0.5800, Beta: 0.2000, Training Accuracy: 0.6422
+Validation - Accuracy: 0.5712, Precision: 0.5955, Recall: 0.5712
+Epoch [8/10], Loss: 1.8217, Alpha: 0.6600, Beta: 0.2250, Training Accuracy: 0.6846
+Validation - Accuracy: 0.5840, Precision: 0.6053, Recall: 0.5840
+Epoch [9/10], Loss: 1.7690, Alpha: 0.7400, Beta: 0.2500, Training Accuracy: 0.7215
+Validation - Accuracy: 0.5926, Precision: 0.6108, Recall: 0.5926
+Epoch [10/10], Loss: 1.7164, Alpha: 0.8200, Beta: 0.2750, Training Accuracy: 0.7614
+Validation - Accuracy: 0.5974, Precision: 0.6223, Recall: 0.5974
+Best Accuracy for ResNet50-MobileNetV2: 0.5974 (Alpha: 0.8200000000000001, Beta: 0.275)
+Confusion Matrix for ResNet50-MobileNetV2:
+[[86  0  0 ...  0  0  0]
+ [ 0 71  0 ...  0  0  0]
+ [ 0  0 46 ...  0  8  0]
+ ...
+ [ 0  0  0 ... 65  1  0]
+ [ 0  0  3 ...  1 42  0]
+ [ 0  0  0 ...  0  0 72]]
+
+Training with ResNet50-ShuffleNetV1 pair:
+Epoch [1/10], Loss: 3.5943, Alpha: 0.1000, Beta: 0.0500, Training Accuracy: 0.1334
+Validation - Accuracy: 0.2276, Precision: 0.2551, Recall: 0.2276
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch [2/10], Loss: 2.8418, Alpha: 0.1800, Beta: 0.0750, Training Accuracy: 0.2884
+Validation - Accuracy: 0.3482, Precision: 0.3777, Recall: 0.3482
+Epoch [3/10], Loss: 2.4348, Alpha: 0.2600, Beta: 0.1000, Training Accuracy: 0.4092
+Validation - Accuracy: 0.4228, Precision: 0.4765, Recall: 0.4228
+/usr/local/lib/python3.10/dist-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch [4/10], Loss: 2.2067, Alpha: 0.3400, Beta: 0.1250, Training Accuracy: 0.4908
+Validation - Accuracy: 0.4727, Precision: 0.5075, Recall: 0.4727
+Epoch [5/10], Loss: 2.0611, Alpha: 0.4200, Beta: 0.1500, Training Accuracy: 0.5538
+Validation - Accuracy: 0.5099, Precision: 0.5486, Recall: 0.5099
+Epoch [6/10], Loss: 1.9583, Alpha: 0.5000, Beta: 0.1750, Training Accuracy: 0.6085
+Validation - Accuracy: 0.5346, Precision: 0.5578, Recall: 0.5346
+Epoch [7/10], Loss: 1.8782, Alpha: 0.5800, Beta: 0.2000, Training Accuracy: 0.6567
+Validation - Accuracy: 0.5421, Precision: 0.5582, Recall: 0.5421
+Epoch [8/10], Loss: 1.8186, Alpha: 0.6600, Beta: 0.2250, Training Accuracy: 0.6995
+Validation - Accuracy: 0.5530, Precision: 0.5707, Recall: 0.5530
+Epoch [9/10], Loss: 1.7654, Alpha: 0.7400, Beta: 0.2500, Training Accuracy: 0.7391
+Validation - Accuracy: 0.5524, Precision: 0.5774, Recall: 0.5524
+Epoch [10/10], Loss: 1.7138, Alpha: 0.8200, Beta: 0.2750, Training Accuracy: 0.7804
+Validation - Accuracy: 0.5563, Precision: 0.5807, Recall: 0.5563
+Best Accuracy for ResNet50-ShuffleNetV1: 0.5563 (Alpha: 0.8200000000000001, Beta: 0.275)
+Confusion Matrix for ResNet50-ShuffleNetV1:
+[[81  0  1 ...  0  0  0]
+ [ 0 78  0 ...  0  0  0]
+ [ 0  3 46 ...  0  1  0]
+ ...
+ [ 0  1  0 ... 35  0  0]
+ [ 0  2  6 ...  0 27  1]
+ [ 0  1  0 ...  0  0 64]]
